@@ -126,7 +126,7 @@ object DecimalType extends AbstractDataType {
   private[sql] val ByteDecimal = DecimalType(3, 0)
   private[sql] val ShortDecimal = DecimalType(5, 0)
   private[sql] val IntDecimal = DecimalType(10, 0)
-  private[sql] val LongDecimal = DecimalType(20, 0)
+  private[sql] val LongDecimal = DecimalType(19, 0)
   private[sql] val FloatDecimal = DecimalType(14, 7)
   private[sql] val DoubleDecimal = DecimalType(30, 15)
   private[sql] val BigIntDecimal = DecimalType(38, 0)
